@@ -13,6 +13,9 @@
 # Aquí dentro definir la función ordenar
 # def ordenar(lista):
 
+def ordenar(lista):
+    return sorted(lista)
+
 # --------------------------------
 
 
@@ -28,6 +31,8 @@ if __name__ == '__main__':
     # Debe recibir 1 parámetro que es la lista de números
     # y retornar la nueva lista ordenada (igual a lo visto en clase)
 
+    lista_orden = ordenar(numeros)
+
     # Dentro de la función puede ordenar la lista
     # usando la funciones nativas de Python "sorted"
 
@@ -37,5 +42,7 @@ if __name__ == '__main__':
 
     # Imprimir en pantalla "lista_ordenada" que tendrá
     # los valores retornado por la función ordenar:
+
+    print("Los numeros ordenados quedarían:", lista_orden)
 
     print("terminamos")
